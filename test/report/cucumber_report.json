@@ -1,0 +1,231 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 908872400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "La pagina home Orangehrmlive",
+            "match": {
+              "location": "Test.la_pagina_home_Orangehrmlive()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 283727000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registrar usuario y contraseña",
+            "match": {
+              "location": "Test.registrar_usuario_y_contraseña()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3201695300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hacer click sobre el boton login",
+            "match": {
+              "location": "Test.hacer_click_sobre_el_boton_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1846489300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "El la guiente pantallas dar click en la pestaña Recruiment",
+            "match": {
+              "location": "Test.el_la_guiente_pantallas_dar_click_en_la_pestaña_Recruiment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125528100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Dar click a la pestaña Candidates",
+            "match": {
+              "location": "Test.dar_click_a_la_pestaña_Candidates()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12237317000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Ingresar datos para Buscar",
+        "description": "",
+        "id": "yo-como-usuario-quiero-ver-todos-los-participantes-registrados-para-la-vacante-de-qa.;ingresar-datos-para-buscar",
+        "after": [
+          {
+            "result": {
+              "duration": 52100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 256009600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Ingresar trabajo",
+            "match": {
+              "location": "Test.ingresar_trabajo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77528600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Ingresar Vacancy",
+            "match": {
+              "location": "Test.ingresar_Vacancy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65786100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Ingresar Hiring Manager",
+            "match": {
+              "location": "Test.ingresar_Hiring_Manager()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96793500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Ingresar Status",
+            "match": {
+              "location": "Test.ingresar_Status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227556300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Ingresar Candidate Name",
+            "match": {
+              "location": "Test.ingresar_Candidate_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119955300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Ingresar Keywords",
+            "match": {
+              "location": "Test.ingresar_Keywords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2877367400,
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027LAPTOP-1CD7F95K\u0027, ip: \u0027192.168.1.53\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_251\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\kerli\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:3241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3e14a0a166db10b04fa5e6b9be964ef5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat com.Pages.LoginPage.setfechaGeneral(LoginPage.java:101)\r\n\tat com.seleniumgluecode.Test.ingress_Date_of_ApplicationTo(Test.java:150)\r\n\tat com.seleniumgluecode.Test.ingress_Date_of_ApplicationFrom(Test.java:138)\r\n\tat ✽.Then Ingresar Date of ApplicationFrom(Test.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "Ingresar Date of ApplicationFrom",
+            "match": {
+              "location": "Test.ingress_Date_of_ApplicationFrom()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Ingresar Date of ApplicationTo",
+            "match": {
+              "location": "Test.ingress_Date_of_ApplicationTo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Method of Application",
+            "match": {
+              "location": "Test.method_of_Application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Buscar Candidates",
+            "match": {
+              "location": "Test.buscar_Candidates()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Yo como usuario quiero ver todos los participantes registrados para la vacante de QA.",
+    "description": "",
+    "id": "yo-como-usuario-quiero-ver-todos-los-participantes-registrados-para-la-vacante-de-qa.",
+    "keyword": "Feature",
+    "uri": "Test.feature"
+  }
+]
